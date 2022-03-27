@@ -11,6 +11,7 @@
   inputs.src-i18n-master.ref   = "refs/heads/master";
   inputs.src-i18n-master.owner = "Parashurama";
   inputs.src-i18n-master.repo  = "nim-i18n";
+  inputs.src-i18n-master.dir   = "";
   inputs.src-i18n-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
